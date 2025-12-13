@@ -25,6 +25,7 @@ echo "build number: ${env.BUILD_NUMBER}"
    }
    stage('SQ Report')
    {
+	   notifyBuild('SONAR_STARTED')
     sh "${mavenHome}/bin/mvn sonar:sonar"
    }
 
