@@ -38,7 +38,7 @@ echo "build number: ${env.BUILD_NUMBER}"
     sh """
     curl -u kk:password \
     --upload-file target/maven-web-application.war \
-    "http://52.66.242.214:8080/manager/text/deploy?path=/maven-web-application&update=true"
+    "http://13.201.102.21:8080/manager/text/deploy?path=/maven-web-application&update=true"
     """
 }
    }  //try block end
