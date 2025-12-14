@@ -46,7 +46,7 @@
 <body>
 
 <header>
-    <marquee> <h1>🚀 MS Purnima!🚀</h1></marquee>
+    <marquee> <h1>🚀 Hello MS Purnima!🚀</h1></marquee>
     <h2> New Batch at Jan 09 6:00 AM IST to 9:00 AM </h2>
     <h3>Training | Development | Consulting</h3>
 </header>
