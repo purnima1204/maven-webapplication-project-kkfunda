@@ -57,6 +57,14 @@ pipeline
               }
            }
 
+           stage('bsnl-dev')
+           {
+             steps
+             {
+               build job:'bsnl-dev' //downstream job
+             }
+           }
+
    }  //stages ending
 
 post {
