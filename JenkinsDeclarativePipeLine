@@ -57,6 +57,14 @@ pipeline
               }
            }
 
+           stage('bsnl-uat')
+           {
+             steps
+             {
+               build job:'bsnl-uat' //downstream job
+             }
+           }
+
    }  //stages ending
 
 post {
